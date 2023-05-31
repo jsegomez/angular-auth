@@ -55,6 +55,11 @@
       </p>
     </div>
   </div>
+
+  <p class="font-medium text-red-500 text-xs mt-1 ml-1" *ngIf="status == 'failed'">
+    Usuario y/o contraseña invalido
+  </p>
+
   <div>
     <app-btn
       typeBtn="submit"
